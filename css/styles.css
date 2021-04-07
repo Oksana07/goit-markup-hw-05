@@ -598,23 +598,27 @@ color: var(--info-color);
 
 /* Overlay */
 
+.portfolio-item  {
+position: relative;
+}
+
+.img-tex {
+  
+}
 .portfolio-overlay-text {
   position: absolute;
   width: 370px;
-  
-  position: relative;
+  top: 0;
+  left: 0;
 }
+
 
 .overlay-text {
 font-size: 18px;
 line-height: 1.56;
-
 background: rgba(33, 150, 243, 0.9);
 color: var(--waite-bg-color);
 padding: 63px 24px;
-position: relative;
-
-
 }
 
 
