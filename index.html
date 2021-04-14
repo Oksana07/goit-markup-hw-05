@@ -459,13 +459,43 @@
 
   <!-- JS -->
   <div class="backdrop is-hidden" data-modal>
+    
     <div class="modal">
+      <form>
+        <p class="modal-title">
+        Оставьте свои данные, мы вам перезвоним</p>
+        <label for="user_name">
+        <span>Імя</span>
+       </label>
+          <input type="text" name="name" id="user_name" 
+          placeholder="Імя" 
+          pattern="" 
+          required 
+          autocomplete=""
+          />
+          
+          <label for="tel">Телефон</label>
+          <input type="tel" name="tel" id="tel" 
+          placeholder="tel" />
+          
+          <label for="email">Почта</label>
+          <input type="email" name="tel" id="email" 
+          placeholder="email" 
+          />
+           <textarea name="" id="" cols="30" rows="10">Коментар
+          </textarea>  
+        <input type="checkbox" required>
+          <button type="submit" class="button-submit">отправить</button>
+        
+      </form>
+      
       <button class="modal-button" data-modal-close>
         <svg class="close-button" width="18px" height="18px">
           <use href="./images/symbol-defs.svg#close-black"></use>
         </svg>
       </button>
     </div>
+   
   </div>
   <script src="./js/modal.js"></script>
 </body>
